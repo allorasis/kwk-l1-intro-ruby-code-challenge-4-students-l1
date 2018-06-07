@@ -1,4 +1,4 @@
-{}
+
 def least_coins(x)
 if x % 25 == 0
 puts x / 25
@@ -7,15 +7,15 @@ puts remainder = x % 25
 elsif remainder % 10 == 0
 puts remainder / 10
 elsif remainder - 10 >= 0 
-puts remainder = remainder % 10 
+puts remainder1 = remainder % 10 
 elsif remainder % 5 == 0
 puts remainder / 5
 elsif remainder - 5 >= 0 
-puts remainder = remainder % 5
+puts remainder2 = remainder1 % 5
 elsif remainder % 1 == 0
 puts remainder / 1
 else remainder - 1 >= 0 
-puts remainder = remainder % 1
+puts remainder3 = remainder2 % 1
 end 
 end
 least_coins(55)
