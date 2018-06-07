@@ -11,7 +11,6 @@ elsif remainder1 - 5 >= 0
 puts remainder2 = remainder1 % 5
 else remainder2 - 1 >= 0 
 puts remainder3 = remainder2 % 1
-
 end 
 end
-least_coins(55)
+least_coins(55).inspect
