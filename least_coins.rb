@@ -27,4 +27,7 @@ else remainder - 1 >= 0
 puts remainder3 = remainder2 % 1
 end 
 end
-least_coins(55)
+quarters(55)
+dimes(55)
+nickles(55)
+pennies(55)
